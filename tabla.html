@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla</title>
+<link rel="stylesheet" href="bootstrap.min_075939.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="text-center">
+
+<center> <i><h2>Tabla</h2></i></center>
+
+<center><i><h4 >Filas</h4></i></center>
+
+<center><input type="range" id="filas" name="filas" min="1" max="100" value="10" class="slider" class="form-control" oninput="fi()"></center>
+
+<center><i><span id="resultado1">10</span></i></center>
+<center><br><br></center>
+
+<center><i><h4 >Columnas</h4></i></center>
+
+<center><input type="range" id="columnas" name="columnas" min="1" max="100" value="10" class="slider" class="form-control" oninput="co()"></center>
+
+<center><i><span id="resultado2">10</span></i></center>
+
+<center><br><br></center>
+
+<center><div id="resultado3"></div></center>
+
+
+
+<script src="app.js">app.js</script>
+
+</body>
+</html>
